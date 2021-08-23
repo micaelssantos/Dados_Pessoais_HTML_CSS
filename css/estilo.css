@@ -1,0 +1,116 @@
+html{
+	font-size: 15px;
+	font-family: arial, verdana, sans-serif;
+	position: relative;
+    height: 100%;
+    overflow-y: scroll;
+	background-color: silver;
+}
+
+article{
+	width: 75%;
+	margin:  50px auto;
+}
+
+h1{
+	font-size: 3rem;
+	text-align: center;
+	padding: 2rem;
+	text-transform: capitalize;
+    color: white;
+	background-color: black;
+	background-position: absolute;
+}
+
+header{
+	display: flex;
+	flex-flow: row;
+}
+
+header > .avatar{
+	width: 30%;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.avatar > img{
+	display: flex;
+	padding: 1rem;
+	margin: 1rem 0;
+	width: 100%;
+	border-radius: 50%;
+	box-shadow: 10px 10px 10px #B3B3B3;
+}
+
+section {
+	padding: 1.5rem;
+	margin: 1rem 0;
+	background-color: black;
+	border: 2px solid silver;
+	border-radius: 15px;
+	color: white;
+}
+
+section > h2{
+	text-align: center;
+	font-size: 2rem;
+	padding: 0.5rem 0.25rem;
+	margin-bottom: 1rem;
+	color: white;
+}
+
+section > h3{
+	font-size: 2rem;
+	font-weight: bold; 
+	color: white;
+}
+
+section > ul {
+  list-style: none
+}
+
+section > ul li:before {
+  content: '\2022';
+  margin: 0 2px;
+  color: white
+ }
+
+section > p {
+	color: white;
+}
+
+section > .tabela{
+	margin: auto;
+}
+
+
+thead > tr{
+	background-color: white;
+	color: black;
+	font-weight: bold;
+}
+
+tbody > tr:nth-child(2n){
+	color: black;
+    background-color: #ccc;  
+}
+
+tbody > tr:nth-child(2n+1){
+	color: black;
+    background-color: #999;  
+}
+
+td,th{
+	padding: 5px 30px;
+}
+
+th{
+	font-weight: bold;
+}
+
+.contato{
+	text-align: center;
+    padding-left: 50px;
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
